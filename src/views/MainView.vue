@@ -1,7 +1,7 @@
 <template>
     <div class="container">
+      <div class="content">
         <sidebar></sidebar>
-        <div class="content">
             <router-view></router-view>
         </div>
     </div>
@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-    import sidebar from '@/components/sidebar.vue';
+  import Sidebar from '../components/Sidebar.vue';
 </script>
 
 <style>

@@ -1,5 +1,5 @@
 <template>
-    <h1>hola mundo</h1>
+    <h1>contador</h1>
     <p>  {{ contador }} </p>
     <button @click="incrementar">incrementar</button>
     <button @click="decrementar">decrementar</button>
@@ -9,7 +9,7 @@
 
 import {ref} from 'vue';
 
-const contador = ref(0);
+const contador = ref(100);
 const incrementar = () => {
   contador.value++;
 }
@@ -21,8 +21,27 @@ const decrementar = () => {
 
 <style scoped>
 
+h1 {
+  font-family: sans-serif;
+  position: relative;
+  left: 50px;
+}
+
 p {
-  color: red;
+  color: navy;
+  font-size: 30px;
+  font-family: sans-serif;
+  position: relative;
+  left: 100px;
+}
+
+button {
+background-color: coral;
+border: none;
+padding: 10px 20px;
+border-radius: 20px;
+font-size: 18px;
+
 }
 
 </style>

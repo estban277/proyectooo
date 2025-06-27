@@ -1,10 +1,9 @@
 <template>
-  <Mainvue></Mainvue>
+  <MainView></MainView>
 </template>
 
 <script setup>
-import Mainvue from './views/mainvue.vue';
-
+import MainView from './views/MainView.vue';
 </script>
 
 <style scoped>
