@@ -7,6 +7,7 @@
   <li><router-link to="/contador">contador</router-link></li>
   <li><router-link to="/lista-de-tareas">lista de tareas</router-link></li>
   <li><router-link to="/registrar">registrar</router-link></li>
+  <li><router-link to="/calcular">calcular</router-link></li>
   </ul>
 </div>
 </template>
@@ -33,6 +34,13 @@ watch(() => registrarStore.email, (newValue) => {
     width: 200px;
     background-color: #f0f0f0;
     padding: 20px;
+    font-family: sans-serif;
 }
+
+h3{
+  font-family: sans-serif;
+}
+
+
 
 </style>

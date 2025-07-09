@@ -3,7 +3,7 @@
     <div>
         <h2>Lista de tareas</h2>
         <input type="text" v-model="nuevaTarea" @keyup.enter="addTarea">
-        
+
         <ul>
             <li v-for="(tareas, index) in tareas" :key="index">
                 {{ tareas }}
@@ -11,7 +11,6 @@
             </li>
         </ul>
     </div>
-    
 
 </template>
 
@@ -29,8 +28,11 @@ const borrarTarea = (index) => {
     tareas.value.splice(index,1)
 }
 
-</script> 
+</script>
 
-<style>
+<style scoped>
+div{
+  font-family: sans-serif;
+}
 
 </style>

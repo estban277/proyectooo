@@ -13,10 +13,7 @@ onMounted(()=>{
   useWeather();
 })
 
-
-
 </script>
 
 <style scoped>
-
 </style>
